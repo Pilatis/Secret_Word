@@ -1,0 +1,31 @@
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #002480;
+    height: 30%;
+    margin: 170px;
+    width: 30rem;
+    border-radius: 20px;
+    border: 2px solid #ddd;
+    padding: 60px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.start h1 {
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.start p {
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    color: #febb00;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.start .btn {
+    margin-top: 1em;
+}

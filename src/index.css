@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+  
+}
+
+html, body {
+  
+}
+
+body {
+  height: 100vmin;
+  width: auto;
+ background: rgb(6,6,6);
+  background: linear-gradient(180deg, rgba(3, 32, 252, 0.64) 0%, rgba(14, 79, 191, 0.627) 52%);
+}
+
+button {
+  background: rgb(3, 26, 79);
+  color: #ffffff;
+  padding: 0 35px;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  height: 46px;
+  transition: .4s;
+}
+
+button:hover {
+  border: transparent;
+  background: rgb(34, 63, 104) 
+}
